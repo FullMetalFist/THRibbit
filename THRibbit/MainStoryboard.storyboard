@@ -126,16 +126,16 @@
             </objects>
             <point key="canvasLocation" x="1385" y="81"/>
         </scene>
-        <!--Table View Controller - Friends-->
+        <!--Friends Table View Controller - Friends-->
         <scene sceneID="XqG-rR-MGx">
             <objects>
-                <tableViewController id="D4c-rx-axV" sceneMemberID="viewController">
+                <tableViewController id="D4c-rx-axV" customClass="FriendsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Cja-tF-ocz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="AsF-3g-UQF">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="AsF-3g-UQF">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AsF-3g-UQF" id="Lpr-RE-hbw">
@@ -152,7 +152,7 @@
                     <navigationItem key="navigationItem" title="Friends" id="zFr-kL-hWj">
                         <barButtonItem key="rightBarButtonItem" title="Edit" id="zgr-YD-sLT">
                             <connections>
-                                <segue destination="X3k-WN-i3U" kind="push" id="bxa-Pa-Qcp"/>
+                                <segue destination="X3k-WN-i3U" kind="push" identifier="showEditFriends" id="bxa-Pa-Qcp"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
