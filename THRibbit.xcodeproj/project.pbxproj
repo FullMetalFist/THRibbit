@@ -41,6 +41,7 @@
 		7CB0E3AD19B79D0A005467D4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB0E3AC19B79D0A005467D4 /* Bolts.framework */; };
 		7CB0E3B019B79E73005467D4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB0E3AF19B79E73005467D4 /* LoginViewController.m */; };
 		7CB0E3B319B79E7E005467D4 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB0E3B219B79E7E005467D4 /* SignupViewController.m */; };
+		7CCC2BB719BDFDDC003B5020 /* CameraTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC2BB619BDFDDC003B5020 /* CameraTableViewController.m */; };
 		7CD3994819B8C3E500CF865A /* EditFriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3994719B8C3E500CF865A /* EditFriendsTableViewController.m */; };
 		7CD3994B19B9014300CF865A /* FriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3994A19B9014300CF865A /* FriendsTableViewController.m */; };
 /* End PBXBuildFile section */
@@ -98,6 +99,8 @@
 		7CB0E3AF19B79E73005467D4 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		7CB0E3B119B79E7E005467D4 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
 		7CB0E3B219B79E7E005467D4 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		7CCC2BB519BDFDDC003B5020 /* CameraTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraTableViewController.h; sourceTree = "<group>"; };
+		7CCC2BB619BDFDDC003B5020 /* CameraTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraTableViewController.m; sourceTree = "<group>"; };
 		7CD3994619B8C3E500CF865A /* EditFriendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditFriendsTableViewController.h; sourceTree = "<group>"; };
 		7CD3994719B8C3E500CF865A /* EditFriendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditFriendsTableViewController.m; sourceTree = "<group>"; };
 		7CD3994919B9014300CF865A /* FriendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsTableViewController.h; sourceTree = "<group>"; };
@@ -191,6 +194,8 @@
 				7CB0E37F19B6DCF9005467D4 /* MainStoryboard.storyboard */,
 				7CD3994619B8C3E500CF865A /* EditFriendsTableViewController.h */,
 				7CD3994719B8C3E500CF865A /* EditFriendsTableViewController.m */,
+				7CCC2BB519BDFDDC003B5020 /* CameraTableViewController.h */,
+				7CCC2BB619BDFDDC003B5020 /* CameraTableViewController.m */,
 				7CD3994919B9014300CF865A /* FriendsTableViewController.h */,
 				7CD3994A19B9014300CF865A /* FriendsTableViewController.m */,
 				7CB0E3AE19B79E73005467D4 /* LoginViewController.h */,
@@ -352,6 +357,7 @@
 				7CD3994819B8C3E500CF865A /* EditFriendsTableViewController.m in Sources */,
 				7CD3994B19B9014300CF865A /* FriendsTableViewController.m in Sources */,
 				7CB0E3B319B79E7E005467D4 /* SignupViewController.m in Sources */,
+				7CCC2BB719BDFDDC003B5020 /* CameraTableViewController.m in Sources */,
 				7CB0E39019B771F0005467D4 /* InboxTableViewController.m in Sources */,
 				7CB0E36119B6DCCF005467D4 /* AppDelegate.m in Sources */,
 				7CB0E35D19B6DCCF005467D4 /* main.m in Sources */,
