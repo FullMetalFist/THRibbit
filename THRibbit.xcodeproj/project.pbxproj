@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C41650219C4CB3100EEFF63 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C41650119C4CB3100EEFF63 /* AVFoundation.framework */; };
+		7C41650919C4CBFF00EEFF63 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C41650319C4CBFF00EEFF63 /* camera.png */; };
+		7C41650A19C4CBFF00EEFF63 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C41650419C4CBFF00EEFF63 /* camera@2x.png */; };
+		7C41650B19C4CBFF00EEFF63 /* friends.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C41650519C4CBFF00EEFF63 /* friends.png */; };
+		7C41650C19C4CBFF00EEFF63 /* friends@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C41650619C4CBFF00EEFF63 /* friends@2x.png */; };
+		7C41650D19C4CBFF00EEFF63 /* inbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C41650719C4CBFF00EEFF63 /* inbox.png */; };
+		7C41650E19C4CBFF00EEFF63 /* inbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C41650819C4CBFF00EEFF63 /* inbox@2x.png */; };
 		7CB0E35119B6DCCF005467D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB0E35019B6DCCF005467D4 /* Foundation.framework */; };
 		7CB0E35319B6DCCF005467D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB0E35219B6DCCF005467D4 /* CoreGraphics.framework */; };
 		7CB0E35519B6DCCF005467D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB0E35419B6DCCF005467D4 /* UIKit.framework */; };
@@ -20,12 +27,6 @@
 		7CB0E37419B6DCCF005467D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CB0E37219B6DCCF005467D4 /* InfoPlist.strings */; };
 		7CB0E37619B6DCCF005467D4 /* THRibbitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB0E37519B6DCCF005467D4 /* THRibbitTests.m */; };
 		7CB0E38019B6DCF9005467D4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB0E37F19B6DCF9005467D4 /* MainStoryboard.storyboard */; };
-		7CB0E38719B76158005467D4 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB0E38119B76158005467D4 /* camera.png */; };
-		7CB0E38819B76158005467D4 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB0E38219B76158005467D4 /* camera@2x.png */; };
-		7CB0E38919B76158005467D4 /* friends.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB0E38319B76158005467D4 /* friends.png */; };
-		7CB0E38A19B76158005467D4 /* friends@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB0E38419B76158005467D4 /* friends@2x.png */; };
-		7CB0E38B19B76158005467D4 /* inbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB0E38519B76158005467D4 /* inbox.png */; };
-		7CB0E38C19B76158005467D4 /* inbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB0E38619B76158005467D4 /* inbox@2x.png */; };
 		7CB0E39019B771F0005467D4 /* InboxTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB0E38F19B771F0005467D4 /* InboxTableViewController.m */; };
 		7CB0E39219B790C6005467D4 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB0E39119B790C6005467D4 /* Parse.framework */; };
 		7CB0E39419B792BF005467D4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB0E39319B792BF005467D4 /* AudioToolbox.framework */; };
@@ -41,7 +42,12 @@
 		7CB0E3AD19B79D0A005467D4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB0E3AC19B79D0A005467D4 /* Bolts.framework */; };
 		7CB0E3B019B79E73005467D4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB0E3AF19B79E73005467D4 /* LoginViewController.m */; };
 		7CB0E3B319B79E7E005467D4 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB0E3B219B79E7E005467D4 /* SignupViewController.m */; };
+		7CC26D6D19C0B2A500F7C861 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC26D6C19C0B2A500F7C861 /* ImageViewController.m */; };
 		7CCC2BB719BDFDDC003B5020 /* CameraTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC2BB619BDFDDC003B5020 /* CameraTableViewController.m */; };
+		7CCC2C2419C0A781003B5020 /* icon_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC2C2019C0A781003B5020 /* icon_image.png */; };
+		7CCC2C2519C0A781003B5020 /* icon_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC2C2119C0A781003B5020 /* icon_image@2x.png */; };
+		7CCC2C2619C0A781003B5020 /* icon_video.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC2C2219C0A781003B5020 /* icon_video.png */; };
+		7CCC2C2719C0A781003B5020 /* icon_video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC2C2319C0A781003B5020 /* icon_video@2x.png */; };
 		7CD3994819B8C3E500CF865A /* EditFriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3994719B8C3E500CF865A /* EditFriendsTableViewController.m */; };
 		7CD3994B19B9014300CF865A /* FriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3994A19B9014300CF865A /* FriendsTableViewController.m */; };
 /* End PBXBuildFile section */
@@ -57,6 +63,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C4164FF19C4CA9000EEFF63 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		7C41650119C4CB3100EEFF63 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7C41650319C4CBFF00EEFF63 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		7C41650419C4CBFF00EEFF63 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		7C41650519C4CBFF00EEFF63 /* friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friends.png; sourceTree = "<group>"; };
+		7C41650619C4CBFF00EEFF63 /* friends@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friends@2x.png"; sourceTree = "<group>"; };
+		7C41650719C4CBFF00EEFF63 /* inbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inbox.png; sourceTree = "<group>"; };
+		7C41650819C4CBFF00EEFF63 /* inbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inbox@2x.png"; sourceTree = "<group>"; };
 		7CB0E34D19B6DCCF005467D4 /* THRibbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THRibbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB0E35019B6DCCF005467D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7CB0E35219B6DCCF005467D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,12 +88,6 @@
 		7CB0E37319B6DCCF005467D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7CB0E37519B6DCCF005467D4 /* THRibbitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THRibbitTests.m; sourceTree = "<group>"; };
 		7CB0E37F19B6DCF9005467D4 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
-		7CB0E38119B76158005467D4 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera.png; path = ../../../../Downloads/Ribbit/camera.png; sourceTree = "<group>"; };
-		7CB0E38219B76158005467D4 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera@2x.png"; path = "../../../../Downloads/Ribbit/camera@2x.png"; sourceTree = "<group>"; };
-		7CB0E38319B76158005467D4 /* friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = friends.png; path = ../../../../Downloads/Ribbit/friends.png; sourceTree = "<group>"; };
-		7CB0E38419B76158005467D4 /* friends@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "friends@2x.png"; path = "../../../../Downloads/Ribbit/friends@2x.png"; sourceTree = "<group>"; };
-		7CB0E38519B76158005467D4 /* inbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = inbox.png; path = ../../../../Downloads/Ribbit/inbox.png; sourceTree = "<group>"; };
-		7CB0E38619B76158005467D4 /* inbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "inbox@2x.png"; path = "../../../../Downloads/Ribbit/inbox@2x.png"; sourceTree = "<group>"; };
 		7CB0E38E19B771F0005467D4 /* InboxTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxTableViewController.h; sourceTree = "<group>"; };
 		7CB0E38F19B771F0005467D4 /* InboxTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxTableViewController.m; sourceTree = "<group>"; };
 		7CB0E39119B790C6005467D4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
@@ -99,8 +107,14 @@
 		7CB0E3AF19B79E73005467D4 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		7CB0E3B119B79E7E005467D4 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
 		7CB0E3B219B79E7E005467D4 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		7CC26D6B19C0B2A500F7C861 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		7CC26D6C19C0B2A500F7C861 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 		7CCC2BB519BDFDDC003B5020 /* CameraTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraTableViewController.h; sourceTree = "<group>"; };
 		7CCC2BB619BDFDDC003B5020 /* CameraTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraTableViewController.m; sourceTree = "<group>"; };
+		7CCC2C2019C0A781003B5020 /* icon_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_image.png; sourceTree = "<group>"; };
+		7CCC2C2119C0A781003B5020 /* icon_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_image@2x.png"; sourceTree = "<group>"; };
+		7CCC2C2219C0A781003B5020 /* icon_video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_video.png; sourceTree = "<group>"; };
+		7CCC2C2319C0A781003B5020 /* icon_video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_video@2x.png"; sourceTree = "<group>"; };
 		7CD3994619B8C3E500CF865A /* EditFriendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditFriendsTableViewController.h; sourceTree = "<group>"; };
 		7CD3994719B8C3E500CF865A /* EditFriendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditFriendsTableViewController.m; sourceTree = "<group>"; };
 		7CD3994919B9014300CF865A /* FriendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsTableViewController.h; sourceTree = "<group>"; };
@@ -112,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C41650219C4CB3100EEFF63 /* AVFoundation.framework in Frameworks */,
 				7CB0E39419B792BF005467D4 /* AudioToolbox.framework in Frameworks */,
 				7CB0E39619B792C5005467D4 /* CFNetwork.framework in Frameworks */,
 				7CB0E35319B6DCCF005467D4 /* CoreGraphics.framework in Frameworks */,
@@ -164,6 +179,8 @@
 		7CB0E34F19B6DCCF005467D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7C41650119C4CB3100EEFF63 /* AVFoundation.framework */,
+				7C4164FF19C4CA9000EEFF63 /* MediaPlayer.framework */,
 				7CB0E3A819B795E0005467D4 /* libz.1.1.3.dylib */,
 				7CB0E3AC19B79D0A005467D4 /* Bolts.framework */,
 				7CB0E3A319B792FA005467D4 /* SystemConfiguration.framework */,
@@ -192,6 +209,8 @@
 				7CB0E3A619B79326005467D4 /* Constants.m */,
 				7CB0E36219B6DCCF005467D4 /* Images.xcassets */,
 				7CB0E37F19B6DCF9005467D4 /* MainStoryboard.storyboard */,
+				7CC26D6B19C0B2A500F7C861 /* ImageViewController.h */,
+				7CC26D6C19C0B2A500F7C861 /* ImageViewController.m */,
 				7CD3994619B8C3E500CF865A /* EditFriendsTableViewController.h */,
 				7CD3994719B8C3E500CF865A /* EditFriendsTableViewController.m */,
 				7CCC2BB519BDFDDC003B5020 /* CameraTableViewController.h */,
@@ -242,12 +261,16 @@
 		7CB0E38D19B76166005467D4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				7CB0E38119B76158005467D4 /* camera.png */,
-				7CB0E38219B76158005467D4 /* camera@2x.png */,
-				7CB0E38319B76158005467D4 /* friends.png */,
-				7CB0E38419B76158005467D4 /* friends@2x.png */,
-				7CB0E38519B76158005467D4 /* inbox.png */,
-				7CB0E38619B76158005467D4 /* inbox@2x.png */,
+				7C41650319C4CBFF00EEFF63 /* camera.png */,
+				7C41650419C4CBFF00EEFF63 /* camera@2x.png */,
+				7C41650519C4CBFF00EEFF63 /* friends.png */,
+				7C41650619C4CBFF00EEFF63 /* friends@2x.png */,
+				7C41650719C4CBFF00EEFF63 /* inbox.png */,
+				7C41650819C4CBFF00EEFF63 /* inbox@2x.png */,
+				7CCC2C2019C0A781003B5020 /* icon_image.png */,
+				7CCC2C2119C0A781003B5020 /* icon_image@2x.png */,
+				7CCC2C2219C0A781003B5020 /* icon_video.png */,
+				7CCC2C2319C0A781003B5020 /* icon_video@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -327,15 +350,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CCC2C2619C0A781003B5020 /* icon_video.png in Resources */,
 				7CB0E38019B6DCF9005467D4 /* MainStoryboard.storyboard in Resources */,
-				7CB0E38919B76158005467D4 /* friends.png in Resources */,
-				7CB0E38A19B76158005467D4 /* friends@2x.png in Resources */,
-				7CB0E38819B76158005467D4 /* camera@2x.png in Resources */,
-				7CB0E38B19B76158005467D4 /* inbox.png in Resources */,
+				7CCC2C2419C0A781003B5020 /* icon_image.png in Resources */,
 				7CB0E35B19B6DCCF005467D4 /* InfoPlist.strings in Resources */,
-				7CB0E38719B76158005467D4 /* camera.png in Resources */,
+				7C41650D19C4CBFF00EEFF63 /* inbox.png in Resources */,
+				7C41650919C4CBFF00EEFF63 /* camera.png in Resources */,
+				7C41650B19C4CBFF00EEFF63 /* friends.png in Resources */,
+				7C41650E19C4CBFF00EEFF63 /* inbox@2x.png in Resources */,
+				7C41650C19C4CBFF00EEFF63 /* friends@2x.png in Resources */,
+				7CCC2C2519C0A781003B5020 /* icon_image@2x.png in Resources */,
+				7C41650A19C4CBFF00EEFF63 /* camera@2x.png in Resources */,
 				7CB0E36319B6DCCF005467D4 /* Images.xcassets in Resources */,
-				7CB0E38C19B76158005467D4 /* inbox@2x.png in Resources */,
+				7CCC2C2719C0A781003B5020 /* icon_video@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC26D6D19C0B2A500F7C861 /* ImageViewController.m in Sources */,
 				7CD3994819B8C3E500CF865A /* EditFriendsTableViewController.m in Sources */,
 				7CD3994B19B9014300CF865A /* FriendsTableViewController.m in Sources */,
 				7CB0E3B319B79E7E005467D4 /* SignupViewController.m in Sources */,

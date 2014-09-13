@@ -14,6 +14,4 @@
 @property (nonatomic, strong) PFRelation *friendsRelation;
 @property (nonatomic, strong) NSArray *friends;
 
-- (BOOL) isFriend:(PFUser *)user;
-
 @end
